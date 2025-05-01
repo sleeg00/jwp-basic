@@ -1,0 +1,457 @@
+01-May-2025 15:38:43.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:38:43.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:38:43.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:38:43.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:38:43.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:38:43.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:38:43.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:38:43.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:38:43.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:38:43.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:38:43.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:38:43.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65246:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:38:43.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:38:43.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:38:43.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:38:43.695 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:38:43.863 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:38:43.872 INFO [main] org.apache.catalina.startup.Catalina.load [366] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:38:43.893 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:38:43.893 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:38:43.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:38:44.767 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:38:45.189 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:38:45.193 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 4 ms.
+01-May-2025 15:38:45.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,319] 밀리초 내에 완료되었습니다.
+01-May-2025 15:38:45.218 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:38:45.223 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1350] 밀리초 내에 시작되었습니다.
+01-May-2025 15:43:49.451 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 15:43:49.454 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 15:43:49.462 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 15:43:49.465 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 15:43:49.479 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 15:43:53.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:43:53.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:43:53.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:43:53.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:43:53.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:43:53.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:43:53.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:43:53.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:43:53.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:43:53.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:43:53.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:43:54.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65316:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:43:54.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:43:54.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:43:54.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:43:54.009 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:43:54.200 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:43:54.211 INFO [main] org.apache.catalina.startup.Catalina.load [406] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:43:54.232 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:43:54.233 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:43:54.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:43:54.972 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:43:55.502 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:43:55.506 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 4 ms.
+01-May-2025 15:43:55.530 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,292] 밀리초 내에 완료되었습니다.
+01-May-2025 15:43:55.532 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:43:55.538 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1326] 밀리초 내에 시작되었습니다.
+01-May-2025 15:46:08.540 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 15:46:08.543 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 15:46:08.551 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 15:46:08.555 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 15:46:08.568 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 15:46:13.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:46:13.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:46:13.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:46:13.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:46:13.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:46:13.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:46:13.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:46:13.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:46:13.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:46:13.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:46:13.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:46:13.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:46:13.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65351:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:46:13.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:46:13.392 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:46:13.635 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:46:13.655 INFO [main] org.apache.catalina.startup.Catalina.load [435] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:46:13.688 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:46:13.689 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:46:13.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:46:14.433 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:46:15.045 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:46:15.049 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 4 ms.
+01-May-2025 15:46:15.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,379] 밀리초 내에 완료되었습니다.
+01-May-2025 15:46:15.074 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:46:15.079 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1422] 밀리초 내에 시작되었습니다.
+01-May-2025 15:46:26.019 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 15:46:26.021 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 15:46:26.026 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 15:46:26.028 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 15:46:26.030 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 15:46:30.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:46:30.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:46:30.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:46:30.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:46:30.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:46:30.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:46:30.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:46:30.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:46:30.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:46:30.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:46:30.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:46:30.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:46:30.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:46:30.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:46:30.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:46:30.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:46:30.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:46:30.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:46:30.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:46:30.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:46:30.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:46:30.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65372:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:46:30.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:46:30.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:46:30.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:46:30.148 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:46:30.302 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:46:30.312 INFO [main] org.apache.catalina.startup.Catalina.load [283] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:46:30.331 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:46:30.331 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:46:30.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:46:30.983 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:46:31.351 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:46:31.356 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 3 ms.
+01-May-2025 15:46:31.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,042] 밀리초 내에 완료되었습니다.
+01-May-2025 15:46:31.378 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:46:31.383 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1069] 밀리초 내에 시작되었습니다.
+01-May-2025 15:49:39.577 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 15:49:39.582 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 15:49:39.590 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 15:49:39.605 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 15:49:39.618 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 15:49:42.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:49:42.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:49:42.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:49:42.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:49:42.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:49:42.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:49:42.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:49:42.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:49:42.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:49:42.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:49:42.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:49:42.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65411:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:49:42.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:49:42.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:49:42.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:49:42.776 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:49:42.940 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:49:42.950 INFO [main] org.apache.catalina.startup.Catalina.load [307] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:49:42.973 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:49:42.973 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:49:42.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:49:43.918 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:49:44.572 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:49:44.578 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 5 ms.
+01-May-2025 15:49:44.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,624] 밀리초 내에 완료되었습니다.
+01-May-2025 15:49:44.603 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:49:44.609 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1658] 밀리초 내에 시작되었습니다.
+01-May-2025 15:51:22.089 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 15:51:22.091 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 15:51:22.101 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 15:51:22.104 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 15:51:22.117 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 15:51:25.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:51:25.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:51:25.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:51:25.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:51:25.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:51:25.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:51:25.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:51:25.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:51:25.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:51:25.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:51:25.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:51:25.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:51:25.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:51:25.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:51:25.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:51:25.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:51:25.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:51:25.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:51:25.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:51:25.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:51:25.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:51:25.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65451:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:51:25.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:51:25.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:51:25.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:51:25.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:51:25.858 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:51:25.872 INFO [main] org.apache.catalina.startup.Catalina.load [523] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:51:25.893 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:51:25.893 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:51:25.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:51:26.882 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:51:27.314 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:51:27.318 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 4 ms.
+01-May-2025 15:51:27.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,444] 밀리초 내에 완료되었습니다.
+01-May-2025 15:51:27.343 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:51:27.349 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1476] 밀리초 내에 시작되었습니다.
+01-May-2025 15:52:31.911 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 15:52:31.913 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 15:52:31.920 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 15:52:31.922 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 15:52:31.924 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 15:52:35.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:52:35.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:52:35.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65480:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:52:35.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:52:35.527 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:52:35.706 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:52:35.716 INFO [main] org.apache.catalina.startup.Catalina.load [307] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:52:35.741 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:52:35.741 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:52:35.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:52:36.582 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:52:37.179 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:52:37.183 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 4 ms.
+01-May-2025 15:52:37.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,458] 밀리초 내에 완료되었습니다.
+01-May-2025 15:52:37.206 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:52:37.210 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1493] 밀리초 내에 시작되었습니다.
+01-May-2025 15:53:07.809 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 15:53:07.811 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 15:53:07.818 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 15:53:07.821 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 15:53:07.823 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 15:53:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:53:11.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:53:11.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:53:11.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:53:11.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:53:11.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:53:11.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:53:11.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:53:11.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:53:11.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:53:11.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:53:11.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:53:11.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:53:11.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:53:11.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:53:11.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:53:11.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:53:11.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:53:11.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:53:11.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:53:11.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:53:11.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65498:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:53:11.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:53:11.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:53:11.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:53:11.813 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:53:12.268 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:53:12.284 INFO [main] org.apache.catalina.startup.Catalina.load [637] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:53:12.315 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:53:12.315 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:53:12.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:53:13.186 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:53:13.574 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:53:13.578 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 4 ms.
+01-May-2025 15:53:13.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,278] 밀리초 내에 완료되었습니다.
+01-May-2025 15:53:13.601 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:53:13.606 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1321] 밀리초 내에 시작되었습니다.
+01-May-2025 15:55:26.829 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 15:55:26.833 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 15:55:26.845 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 15:55:26.849 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 15:55:26.858 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 15:55:30.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:55:30.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:55:30.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 15:55:30.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 15:55:30.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 15:55:30.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 15:55:30.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 15:55:30.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 15:55:30.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 15:55:30.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 15:55:30.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 15:55:30.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 15:55:30.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49161:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 15:55:30.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 15:55:30.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 15:55:30.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 15:55:30.819 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 15:55:30.995 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 15:55:31.006 INFO [main] org.apache.catalina.startup.Catalina.load [422] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 15:55:31.039 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 15:55:31.039 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 15:55:31.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 15:55:32.176 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 15:55:32.641 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 15:55:32.649 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 8 ms.
+01-May-2025 15:55:32.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,639] 밀리초 내에 완료되었습니다.
+01-May-2025 15:55:32.687 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 15:55:32.695 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1686] 밀리초 내에 시작되었습니다.
+01-May-2025 16:07:19.252 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 16:07:19.255 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 16:07:19.263 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 16:07:19.266 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 16:07:19.279 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 16:07:23.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 16:07:23.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 16:07:23.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 16:07:23.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 16:07:23.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 16:07:23.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 16:07:23.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 16:07:23.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 16:07:23.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 16:07:23.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 16:07:23.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49322:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 16:07:23.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 16:07:23.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 16:07:23.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 16:07:23.953 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 16:07:23.969 INFO [main] org.apache.catalina.startup.Catalina.load [403] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 16:07:23.996 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 16:07:23.996 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 16:07:24.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 16:07:24.799 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 16:07:25.397 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 16:07:25.401 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 4 ms.
+01-May-2025 16:07:25.422 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,422] 밀리초 내에 완료되었습니다.
+01-May-2025 16:07:25.423 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 16:07:25.428 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1457] 밀리초 내에 시작되었습니다.
+01-May-2025 16:08:28.102 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+01-May-2025 16:08:28.104 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-May-2025 16:08:28.110 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.h2.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-May-2025 16:08:28.113 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+01-May-2025 16:08:28.115 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+01-May-2025 16:08:34.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.104
+01-May-2025 16:08:34.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Apr 4 2025 12:32:55 UTC
+01-May-2025 16:08:34.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.104.0
+01-May-2025 16:08:34.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+01-May-2025 16:08:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     13.4
+01-May-2025 16:08:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+01-May-2025 16:08:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/leeseonghyeon/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home
+01-May-2025 16:08:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.2.1+1-1
+01-May-2025 16:08:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+01-May-2025 16:08:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 16:08:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 16:08:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+01-May-2025 16:08:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+01-May-2025 16:08:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/leeseonghyeon/Downloads/apache-tomcat-9.0.104
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/leeseonghyeon/Documents/jwp-basic
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/leeseonghyeon/Documents/jwp-basic/temp
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/leeseonghyeon/Documents/jwp-basic/conf/logging.properties
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49354:/Applications/IntelliJ IDEA CE.app/Contents/bin
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+01-May-2025 16:08:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+01-May-2025 16:08:34.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+01-May-2025 16:08:34.385 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/leeseonghyeon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-May-2025 16:08:34.584 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+01-May-2025 16:08:34.599 INFO [main] org.apache.catalina.startup.Catalina.load [380] 밀리초 내에 서버가 초기화되었습니다.
+01-May-2025 16:08:34.636 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+01-May-2025 16:08:34.637 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.104]
+01-May-2025 16:08:34.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+01-May-2025 16:08:35.426 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-May-2025 16:08:35.897 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executing SQL script from class path resource [jwp.sql]
+01-May-2025 16:08:35.902 INFO [main] org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript Executed SQL script from class path resource [jwp.sql] in 5 ms.
+01-May-2025 16:08:35.928 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/leeseonghyeon/Documents/jwp-basic/conf/Catalina/localhost/ROOT.xml]의 배치가 [1,285] 밀리초 내에 완료되었습니다.
+01-May-2025 16:08:35.931 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+01-May-2025 16:08:35.938 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1337] 밀리초 내에 시작되었습니다.
