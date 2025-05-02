@@ -20,6 +20,7 @@ import org.slf4j.LoggerFactory;
 @WebFilter("/*")
 public class ResourceFilter implements Filter {
     private static final Logger logger = LoggerFactory.getLogger(ResourceFilter.class);
+
     private static final List<String> resourcePrefixs = new ArrayList<>();
     static {
         resourcePrefixs.add("/css");
@@ -41,6 +42,7 @@ public class ResourceFilter implements Filter {
             throws IOException, ServletException {
         HttpServletRequest req = (HttpServletRequest) request;
         String path = req.getRequestURI().substring(req.getContextPath().length());
+        logger.info(path);
         if (isResourceUrl(path)) {
             logger.debug("path : {}", path);
             defaultRequestDispatcher.forward(request, response);
